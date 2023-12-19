@@ -1416,49 +1416,49 @@ disabled rule("Global Setup (Vectors, Variables, & Arrays)")
 		Modify Global Variable(TeleArray, Append To Array, Vector(-34.198, 8.270, 8.135));
 		"Blocked Zone Vectors"
 		Global.BlockedVectors = Empty Array;
-		"Town Square 1 [0, 1]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(4.283, 5, -6.298));
-		Modify Global Variable(BlockedVectors, Append To Array, 35);
-		"Bridge [2, 3]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(100.693, 1, -46.797));
-		Modify Global Variable(BlockedVectors, Append To Array, 25);
-		"Shoppes [4, 5]"
+		"Castle Entry 1 [0, 1]"
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(-145.55, 0.85, 116.12));
+		Modify Global Variable(BlockedVectors, Append To Array, 2.5);
+		"Castle Entry 2 [2, 3]"
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(-143.83, 1.75, 91.66));
+		Modify Global Variable(BlockedVectors, Append To Array, 3);
+		"? [4, 5]"
 		Modify Global Variable(BlockedVectors, Append To Array, Vector(-49.345, 4, -41.585));
 		Modify Global Variable(BlockedVectors, Append To Array, 15);
-		"Rum Factory [6, 7]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(25.972, 6, -77.525));
-		Modify Global Variable(BlockedVectors, Append To Array, 24);
-		"Factory Entrance [8, 9]"
+		"Throne Room [6, 7]"
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(-122.14, -0.15, 110.63));
+		Modify Global Variable(BlockedVectors, Append To Array, 16);
+		"? [8, 9]"
 		Modify Global Variable(BlockedVectors, Append To Array, Vector(-28.923, 5, -81.702));
 		Modify Global Variable(BlockedVectors, Append To Array, 35);
-		"Beachfront [10, 11]"
+		"? [10, 11]"
 		Modify Global Variable(BlockedVectors, Append To Array, Vector(81.663, 2, -82.867));
 		Modify Global Variable(BlockedVectors, Append To Array, 21);
 		"Door Vectors"
 		Global.DoorVectors = Empty Array;
-		"Town Square [0]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(158.253, 12.436, -62.426));
-		"Loading Zone [1]"
+		"Castle Entry [0]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-150.64, 0.75, 117.66));
+		"? [1]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(33.756, 9.425, -25.910));
-		"Distellery [2]"
+		"? [2]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(11.111, 7.391, -35.308));
-		"Rum Factory [3]"
+		"? [3]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(33.955, 7.425, -54.270));
-		"Capitol Drive [4]"
+		"? [4]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(-17.494, 7.373, -18.254));
-		"Battlements [5]"
+		"? [5]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(157.738, 12.425, -30.451));
-		"Bridge [6]"
+		"? [6]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(119.246, 3.437, -28.882));
-		"Suburbs [7]"
+		"? [7]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(77.199, 13.460, -43.933));
-		"Sebastian's Garage [8]"
+		"? [8]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(-105.651, 5.275, -29.410));
-		"Capitol [9]"
+		"? [9]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(-33.907, 8.245, 0.495));
-		"Rooftop [10]"
+		"? [10]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(185.929, 11.425, -65.825));
-		"Cocina [11]"
+		"? [11]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(-66.029, 5.378, -39.801));
 		"Purge Vectors"
 		Global.PurgeVectors = Empty Array;
@@ -1542,73 +1542,73 @@ disabled rule("Global Setup (Vectors, Variables, & Arrays)")
 		Modify Global Variable(BlockedEffects, Append To Array, Last Created Entity);
 		"Blocked Doors Effects"
 		Global.BlockedDoors = Empty Array;
-		"Town Square [0]"
+		"Castle Foyer [0]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[0], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Town Square (1750 Points)"), Global.DoorVectors[0], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Castle Foyer (1250 Points)"), Global.DoorVectors[0], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Loading Zone [1]"
+		"? [1]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[1], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Loading Zone (2500 Points)"), Global.DoorVectors[1], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Distellery [2]"
+		"? [2]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[2], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Distillery (1250 Points)"), Global.DoorVectors[2], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Rum Factory [3]"
+		"? [3]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[3], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Rum Factory (1500 Points)"), Global.DoorVectors[3], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Capitol Drive [4]"
+		"? [4]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[4], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Capitol Drive (750 Points)"), Global.DoorVectors[4], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Battlements [5]"
+		"? [5]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[5], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Battlements (1500 Points)"), Global.DoorVectors[5], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Bridge [6]"
+		"? [6]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[6], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Sea Wall (2000 Points)"), Global.DoorVectors[6], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Suburbs [7]"
+		"? [7]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[7], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Suburbs (1250 Points)"), Global.DoorVectors[7], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Sebastian's Garage [8]"
+		"? [8]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[8], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Sebastian's Garage (1500 Points)"), Global.DoorVectors[8], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"The Capitol [9]"
+		"? [9]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[9], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("The Capitol (2500 Points)"), Global.DoorVectors[9], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Rooftop [10]"
+		"? [10]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[10], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Atrium (1250 Points)"), Global.DoorVectors[10], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"Cocina [11]"
+		"? [11]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[11], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("La Cocina (1000 Points)"), Global.DoorVectors[11], 1,
@@ -3619,20 +3619,20 @@ disabled rule("Spawn Points")
 			Teleport(Event Player, Random Value In Array(Global.LockdownArray));
 			Abort;
 		End;
-		"Helipad"
-		If(Distance Between(Vector(186.453, 12.710, -46.089), Closest Player To(Vector(186.453, 12.710, -46.089), Team 1)) <= 22);
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(186.453, 12.710, -46.089));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(164.571, 12.425, -46.995));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(158.784, 12.426, -49.988));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(158.827, 12.426, -43.822));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(186.081, 12.675, -55.326));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(195.289, 12.685, -46.403));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(183.321, 13.437, -42.593));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(194.841, 13.684, -59.723));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(201.362, 12.678, -34.334));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(201.922, 19.339, -53.446));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(185.961, 19.339, -63.446));
-			Modify Global Variable(SpawnPoints, Append To Array, Vector(170.298, 19.341, -53.448));
+		"Security Center"
+		If(Distance Between(Vector(-160.10, 1.29, 99.44), Closest Player To(Vector(-160.10, 1.29, 99.44), Team 1)) <= 18);
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-154.63, 3.05, 118.99));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-149.61, 1.81, 107.30));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-146.18, 1.79, 98.95));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-157.07, 2.24, 104.02));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-162.82, 2.5, 105.86));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-166.51, 2.81, 101.04));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-164.22, 2.87, 94.10));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-159.65, 2.51, 95.27));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-150.13, 0.75, 90.98));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-156.00, 0.75, 93.48));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-153.02, 0.75, 114.77));
+			Modify Global Variable(SpawnPoints, Append To Array, Vector(-154.72, 5.67, 101.13));
 		End;
 		"Colosseum"
 		If(Distance Between(Vector(210.409, 28.925, -42.618), Closest Player To(Vector(210.409, 28.925, -42.618), Team 1)) <= 25);
@@ -5822,15 +5822,16 @@ disabled rule("Purchases Extended")
 				Abort;
 			End;
 		End;
-		"Open Town Square [0] (0, 1)"
+		"Open Castle Entry [0] (0, 1)"
 		If(Distance Between(Global.DoorVectors[0], Event Player) <= 2);
-			If(Event Player.Points >= 1750 && Global.DoorsRight1 == 0);
+			If(Event Player.Points >= 1250 && Global.DoorsRight1 == 0);
 				Destroy Effect(Global.BlockedDoors[0]);
 				Destroy In-World Text(Global.BlockedDoors[1]);
-				Event Player.Points -= 1750;
-				Big Message(All Players(Team 1), Custom String("Town Square Opened"));
+				Destroy Effect(Global.BlockedEffects[0]);
+				Destroy Effect(Global.BlockedEffects[2]);
+				Event Player.Points -= 1250;
+				Big Message(All Players(Team 1), Custom String("Castle Foyer Opened"));
 				Global.DoorsRight1 = 1;
-				Global.TeleArray[2] = Global.DoorVectors[0];
 				Wait(3, Ignore Condition);
 				Call Subroutine(SpawnResets);
 				Abort;
@@ -6615,23 +6616,23 @@ disabled rule("Blocked Vectors Mechanics")
 
 	actions
 	{
-		"Town Square | Loading Docks [0, 1]"
+		"Security Center | Castle Entry 1 [0, 1]"
 		If(Distance Between(Event Player, Global.BlockedVectors[0]) <= Global.BlockedVectors[1]);
-			If(Global.DoorsRight1 < 2);
+			If(Global.DoorsRight1 < 1);
 				Apply Impulse(Event Player, Direction Towards(Global.BlockedVectors[0], Event Player), 35, To World, Cancel Contrary Motion);
 				Wait(0.100, Ignore Condition);
 				Loop If(Distance Between(Event Player, Global.BlockedVectors[0]) <= Global.BlockedVectors[1]);
 			End;
 		End;
-		"Bridge | Battlements [2, 3]"
+		"Security Center | Castle Entry 2 [2, 3]"
 		If(Distance Between(Event Player, Global.BlockedVectors[2]) <= Global.BlockedVectors[3]);
-			If(Global.DoorsLeft1 < 2);
+			If(Global.DoorsRight1 < 1);
 				Apply Impulse(Event Player, Direction Towards(Global.BlockedVectors[2], Event Player), 15, To World, Cancel Contrary Motion);
 				Wait(0.100, Ignore Condition);
 				Loop If(Distance Between(Event Player, Global.BlockedVectors[2]) <= Global.BlockedVectors[3]);
 			End;
 		End;
-		"Cocina | Garage [4, 5]"
+		"? | ? [4, 5]"
 		If(Distance Between(Event Player, Global.BlockedVectors[4]) <= Global.BlockedVectors[5]);
 			If(Global.DoorsLeft1 < 5);
 				Apply Impulse(Event Player, Direction Towards(Global.BlockedVectors[4], Event Player), 35, To World, Cancel Contrary Motion);
@@ -6639,7 +6640,7 @@ disabled rule("Blocked Vectors Mechanics")
 				Loop If(Distance Between(Event Player, Global.BlockedVectors[4]) <= Global.BlockedVectors[5]);
 			End;
 		End;
-		"Distellery | Rum Factory [6, 7]"
+		"Castle Entry | Throne Room [6, 7]"
 		If(Distance Between(Event Player, Global.BlockedVectors[6]) <= Global.BlockedVectors[7]);
 			If(Global.DoorsRight1 < 4);
 				Apply Impulse(Event Player, Direction Towards(Global.BlockedVectors[6], Event Player), 35, To World, Cancel Contrary Motion);
@@ -6647,7 +6648,7 @@ disabled rule("Blocked Vectors Mechanics")
 				Loop If(Distance Between(Event Player, Global.BlockedVectors[6]) <= Global.BlockedVectors[7]);
 			End;
 		End;
-		"Factory Entrance [8, 9]"
+		"? [8, 9]"
 		If(Distance Between(Event Player, Global.BlockedVectors[8]) <= Global.BlockedVectors[9]);
 			If(Global.GenL < 3 || Global.GenR < 3);
 				Apply Impulse(Event Player, Direction Towards(Global.BlockedVectors[8], Event Player), 35, To World, Cancel Contrary Motion);
@@ -6655,7 +6656,7 @@ disabled rule("Blocked Vectors Mechanics")
 				Loop If(Distance Between(Event Player, Global.BlockedVectors[8]) <= Global.BlockedVectors[9]);
 			End;
 		End;
-		"Beachfront [10, 11]"
+		"? [10, 11]"
 		If(Distance Between(Event Player, Global.BlockedVectors[10]) <= Global.BlockedVectors[11]);
 			If(Global.GenL < 1 || Global.GenR < 3);
 				Apply Impulse(Event Player, Direction Towards(Global.BlockedVectors[10], Event Player), 35, To World, Cancel Contrary Motion);
