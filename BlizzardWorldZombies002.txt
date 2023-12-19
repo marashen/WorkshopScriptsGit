@@ -962,7 +962,7 @@ rule("=======Core Mechanics & Setup=======")
 	}
 }
 
-disabled rule("Global Setup (Vectors, Variables, & Arrays)")
+rule("Global Setup (Vectors, Variables, & Arrays)")
 {
 	event
 	{
@@ -985,77 +985,77 @@ disabled rule("Global Setup (Vectors, Variables, & Arrays)")
 		"Perk Vectors"
 		Global.PerkVectors = Empty Array;
 		"Tuff 'Nuff [0]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-2.639, 7.262, -34.827));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Challenge Claim [1]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-170.893, 5.275, -87.414));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Deadeye Dewdrops [2]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(21.002, 13.316, 31.636));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Soul Box 1 [3]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(11.376, 6.425, -26.419));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Winters Wail [4]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(78.204, 8.430, -25.990));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Soul Box 2 [5]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-121.851, 5.425, -163.843));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Change Chews [6]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(52.093, 7.425, -101.562));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Soul Box 3 [7]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-100.066, 5.428, -91.281));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Bang Bangs [8]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(86.138, 13.474, -48.341));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Soul Box 4 [9]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(91.350, 5.327, -72.562));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Racin' Stripes [10]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(144.628, 6.465, -18.224));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Forge Freeze Altar [11]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-141.373, 5.425, -83.457));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Blue Bolts [12]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(46.146, 7.441, -15.176));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Shredder Altar [13]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(204.563, 28.925, -40.038));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Quickies [14]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(22.962, 7.300, 4.181));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Face Melter Altar [15]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(186.172, 12.601, -46.488));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Up N' Atoms [16]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(198.605, 11.433, -33.687));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Headcutter Altar [17]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(16.083, 21.425, -5.853));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Bombstoppers [18]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-6.005, 11.300, 12.355));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Dischord Altar [19]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-49.983, 8.423, 39.129));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Graveyard Gummies [20]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(28.132, 11.425, -96.897));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Acid Rain Altar [21]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-9.539, 7.275, -79.384));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Mule Munchies [22]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-2.886, 7.447, -50.688));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Ticket Stand [23]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(147.685, 7.426, -46.516));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"MummNNumms [24]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(98.080, 10.525, -18.633));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Ticket Redeemer [25]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-106.790, 5.425, -59.168));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Stock Smarties [26]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(130.407, 11.400, -31.896));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"? [27]"
 		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Slappy Taffy [28]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(-74.541, 5.425, -132.304));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"? [29]"
 		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Box Locations"
 		Global.BoxLocations = Empty Array;
-		"Lighthouse [0]"
-		Modify Global Variable(BoxLocations, Append To Array, Vector(95.997, 3.430, -72.468));
-		"Townsquare [1]"
-		Modify Global Variable(BoxLocations, Append To Array, Vector(-11.518, 13.428, 31.296));
-		"Rum Factory [2]"
-		Modify Global Variable(BoxLocations, Append To Array, Vector(47.754, 11.426, -97.062));
-		"Suburbs [3]"
-		Modify Global Variable(BoxLocations, Append To Array, Vector(-114.922, 5.277, -85.593));
-		"Capitol [4]"
-		Modify Global Variable(BoxLocations, Append To Array, Vector(-23.773, 13.426, -39.776));
+		"? [0]"
+		Modify Global Variable(BoxLocations, Append To Array, Vector(0, 0, 0));
+		"? [1]"
+		Modify Global Variable(BoxLocations, Append To Array, Vector(0, 0, 0));
+		"? [2]"
+		Modify Global Variable(BoxLocations, Append To Array, Vector(0, 0, 0));
+		"? [3]"
+		Modify Global Variable(BoxLocations, Append To Array, Vector(0, 0, 0));
+		"? [4]"
+		Modify Global Variable(BoxLocations, Append To Array, Vector(0, 0, 0));
 		"Box Rates"
 		Global.Box = Empty Array;
 		"Thundergun (Doom) | 1% [1/100]"
@@ -1207,26 +1207,21 @@ disabled rule("Global Setup (Vectors, Variables, & Arrays)")
 		Wait(1, Ignore Condition);
 		"Initial Spawn Points"
 		Global.SpawnPoints = Empty Array;
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-154.63, 3.05, 118.99));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-149.61, 1.81, 107.30));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-146.18, 1.79, 98.95));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-157.07, 2.24, 104.02));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-162.82, 2.5, 105.86));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-166.51, 2.81, 101.04));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-164.22, 2.87, 94.10));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-159.65, 2.51, 95.27));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-150.13, 0.75, 90.98));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-156.00, 0.75, 93.48));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-153.02, 0.75, 114.77));
-		Modify Global Variable(SpawnPoints, Append To Array, Vector(-154.72, 5.67, 101.13));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
 		"Lockdown Array"
 		Global.LockdownArray = Empty Array;
-		Modify Global Variable(LockdownArray, Append To Array, Vector(11.012, 7.425, -41.327));
-		Modify Global Variable(LockdownArray, Append To Array, Vector(-58.668, 11.425, -94.073));
-		Modify Global Variable(LockdownArray, Append To Array, Vector(75.287, 8.425, -126.024));
-		Modify Global Variable(LockdownArray, Append To Array, Vector(-117.194, 5.430, -65.526));
-		Modify Global Variable(LockdownArray, Append To Array, Vector(14.393, 19.562, -41.507));
-		Modify Global Variable(LockdownArray, Append To Array, Vector(-15.904, 27.908, -40.520));
+		Modify Global Variable(LockdownArray, Append To Array, Vector(0, 0, 0));
 		"PowerUps"
 		Create Effect(All Players(All Teams), Sphere, Global.Insta == 2 ? Color(Team 2) : (Global.Max == 2 ? Color(Purple) : (
 			Global.Nuke == 2 ? Color(Orange) : (Global.Double == 2 ? Color(Green) : Color(White)))),
@@ -1307,173 +1302,173 @@ disabled rule("Global Setup (Vectors, Variables, & Arrays)")
 		Modify Global Variable(MagicVectors, Append To Array, Vector(0, 0, 0));
 		Global.MagicVectors[1] = Random Value In Array(Global.BoxLocations);
 		"Pack [2]"
-		Modify Global Variable(MagicVectors, Append To Array, Vector(-34.660, 8.268, 61.841));
+		Modify Global Variable(MagicVectors, Append To Array, Vector(0, 0, 0));
 		"? [3]"
 		Modify Global Variable(MagicVectors, Append To Array, Global.MagicVectors[0]);
 		"Perk Slots [4]"
-		Modify Global Variable(MagicVectors, Append To Array, Vector(-52.268, 7.429, -78.498));
+		Modify Global Variable(MagicVectors, Append To Array, Vector(0, 0, 0));
 		"Ice [5]"
-		Modify Global Variable(MagicVectors, Append To Array, Vector(211.423, 28.925, -16.478));
+		Modify Global Variable(MagicVectors, Append To Array, Vector(0, 0, 0));
 		"Fire [6]"
-		Modify Global Variable(MagicVectors, Append To Array, Vector(227.006, 28.925, -16.971));
+		Modify Global Variable(MagicVectors, Append To Array, Vector(0, 0, 0));
 		"Wind [7]"
-		Modify Global Variable(MagicVectors, Append To Array, Vector(227.511, 28.925, -32.946));
+		Modify Global Variable(MagicVectors, Append To Array, Vector(0, 0, 0));
 		"Lightning [8]"
-		Modify Global Variable(MagicVectors, Append To Array, Vector(227.511, 28.925, -48.667));
+		Modify Global Variable(MagicVectors, Append To Array, Vector(0, 0, 0));
 		"Shadow [9]"
-		Modify Global Variable(MagicVectors, Append To Array, Vector(226.621, 28.934, -63.533));
+		Modify Global Variable(MagicVectors, Append To Array, Vector(0, 0, 0));
 		"Venom [10]"
-		Modify Global Variable(MagicVectors, Append To Array, Vector(216.074, 28.925, -64.605));
+		Modify Global Variable(MagicVectors, Append To Array, Vector(0, 0, 0));
 		"Helipad [5]"
-		Modify Global Variable(BoxLocations, Append To Array, Vector(186.154, 11.425, -30.060));
+		Modify Global Variable(BoxLocations, Append To Array, Vector(0, 0, 0));
 		"Bow Vectors"
 		Global.BowVectors = Empty Array;
 		"Ice [0, 1, 2]"
-		Modify Global Variable(BowVectors, Append To Array, Vector(227.511, 28.925, -40.500));
-		Modify Global Variable(BowVectors, Append To Array, Vector(13.907, 7.431, 5.050));
-		Modify Global Variable(BowVectors, Append To Array, Vector(-99.466, 5.425, -20.187));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Fire [3, 4, 5]"
-		Modify Global Variable(BowVectors, Append To Array, Vector(-113.084, 5.425, -61.151));
-		Modify Global Variable(BowVectors, Append To Array, Vector(75.075, 7, -115.621));
-		Modify Global Variable(BowVectors, Append To Array, Vector(-46.641, 7.425, -90.149));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Wind [6, 7, 8]"
-		Modify Global Variable(BowVectors, Append To Array, Vector(-54.851, 27.830, -28.119));
-		Modify Global Variable(BowVectors, Append To Array, Vector(-24.424, 15.882, -85.356));
-		Modify Global Variable(BowVectors, Append To Array, Vector(33.151, 18.751, -77.950));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Lightning [9, 10, 11]"
-		Modify Global Variable(BowVectors, Append To Array, Vector(70.415, 7.469, -82.815));
-		Modify Global Variable(BowVectors, Append To Array, Vector(0.132, 7.425, -79.280));
-		Modify Global Variable(BowVectors, Append To Array, Vector(-79.626, 11.769, -54.633));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Shadow [12, 13, 14]"
-		Modify Global Variable(BowVectors, Append To Array, Vector(76.351, 9, -48.683));
-		Modify Global Variable(BowVectors, Append To Array, Vector(-38.206, 7, -72.770));
-		Modify Global Variable(BowVectors, Append To Array, Vector(-94.209, 5.425, -101.024));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Venom [15, 16, 17]"
-		Modify Global Variable(BowVectors, Append To Array, Vector(-62.810, 5.438, -105.059));
-		Modify Global Variable(BowVectors, Append To Array, Vector(86.262, 4, -97.462));
-		Modify Global Variable(BowVectors, Append To Array, Vector(146.168, 7, -53.889));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Weapon Vectors"
 		Global.WeaponVectors = Empty Array;
-		"M14 (Ashe) [0]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(156.034, 12.426, -41.690));
-		"Olympia (Reaper) [1]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(202.951, 11.426, -46.299));
-		"LSAT (Orisa) [2]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(169.438, 18.382, -55.673));
-		"MP5 (DVA) [3]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(39.927, 9.453, 9.759));
-		"M16 (Bap) [4]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(81.395, 6.418, -102.544));
-		"Remington (Hog) [5]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(10.655, 13.425, -8.980));
-		"PDW (Sombra) [6]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(135.311, 7.425, -62.879));
-		"AN94 (Soldier) [7]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(107.826, 2.581, -23.109));
-		"SVU (Ana) [8]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(11.879, 13.436, -79.248));
-		"Five-Seven (Torb) [9]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(127.549, 13.379, -54.729));
-		"Galva (All) [10]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(-140.437, 5.425, -82.950));
-		"Katana (Brig) [11]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(-59.692, 5.431, -111.774));
-		"M1927 (Rammatra) [12]"
-		Modify Global Variable(WeaponVectors, Append To Array, Vector(41.942, 13.425, -57.003));
+		"? (Ashe) [0]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Reaper) [1]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Orisa) [2]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (DVA) [3]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Bap) [4]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Hog) [5]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Sombra) [6]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Soldier) [7]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Ana) [8]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Torb) [9]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (All) [10]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Brig) [11]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
+		"? (Rammatra) [12]"
+		Modify Global Variable(WeaponVectors, Append To Array, Vector(0, 0, 0));
 		"Teleporter Vectors"
 		Global.TeleArray = Empty Array;
-		"Helipad [0]"
+		"? [0]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"Colosseum [1]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(187.611, 28.926, -27.413));
-		"Town Square To [2]"
+		"? [1]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
+		"? [2]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"Town Square From [3]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(61.387, 9.429, 31.617));
-		"Distellery To [4]"
+		"? [3]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
+		"? [4]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"Distellery From [6]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(21.508, 7.421, -47.325));
-		"Capitol To [7]"
+		"? [6]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
+		"? [7]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"Capitol From [8]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(-22.841, 7.272, -18.352));
-		"Battlements To [9]"
+		"? [8]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
+		"? [9]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"Battlements From [10]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(153.041, 11.397, -30.669));
-		"Suburbs To [11]"
+		"? [10]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
+		"? [11]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"Suburbs From [12]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(-77.626, 5.425, -95.884));
-		"Garage To [13]"
+		"? [12]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
+		"? [13]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"Garage From [14]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(-98.827, 5.275, -36.445));
-		"Capitol To [15]"
+		"? [14]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
+		"? [15]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"Capitol From [16]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(-34.198, 8.270, 8.135));
+		"? [16]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
 		"Blocked Zone Vectors"
 		Global.BlockedVectors = Empty Array;
-		"Castle Entry 1 [0, 1]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(-145.55, 0.85, 116.12));
-		Modify Global Variable(BlockedVectors, Append To Array, 2.5);
-		"Castle Entry 2 [2, 3]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(-143.83, 1.75, 91.66));
-		Modify Global Variable(BlockedVectors, Append To Array, 3);
+		"? [0, 1]"
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BlockedVectors, Append To Array, 0);
+		"? [2, 3]"
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BlockedVectors, Append To Array, 0);
 		"? [4, 5]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(-49.345, 4, -41.585));
-		Modify Global Variable(BlockedVectors, Append To Array, 15);
-		"Throne Room [6, 7]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(-122.14, -0.15, 110.63));
-		Modify Global Variable(BlockedVectors, Append To Array, 16);
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BlockedVectors, Append To Array, 0);
+		"? [6, 7]"
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BlockedVectors, Append To Array, 0);
 		"? [8, 9]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(-28.923, 5, -81.702));
-		Modify Global Variable(BlockedVectors, Append To Array, 35);
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BlockedVectors, Append To Array, 0);
 		"? [10, 11]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(81.663, 2, -82.867));
-		Modify Global Variable(BlockedVectors, Append To Array, 21);
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BlockedVectors, Append To Array, 0);
 		"Door Vectors"
 		Global.DoorVectors = Empty Array;
-		"Castle Entry [0]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(-150.64, 0.75, 117.66));
+		"? [0]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [1]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(33.756, 9.425, -25.910));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [2]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(11.111, 7.391, -35.308));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [3]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(33.955, 7.425, -54.270));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [4]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(-17.494, 7.373, -18.254));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [5]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(157.738, 12.425, -30.451));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [6]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(119.246, 3.437, -28.882));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [7]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(77.199, 13.460, -43.933));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [8]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(-105.651, 5.275, -29.410));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [9]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(-33.907, 8.245, 0.495));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [10]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(185.929, 11.425, -65.825));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [11]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(-66.029, 5.378, -39.801));
+		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"Purge Vectors"
 		Global.PurgeVectors = Empty Array;
-		"Helipad [0]"
-		Modify Global Variable(PurgeVectors, Append To Array, Vector(214.881, 28.925, -40.896));
-		"Town Square [1]"
-		Modify Global Variable(PurgeVectors, Append To Array, Vector(-66.071, 8.270, 20.566));
-		"Rum Factory [2]"
-		Modify Global Variable(PurgeVectors, Append To Array, Vector(46.742, 7.296, -83.743));
-		"Sea Wall [3]"
-		Modify Global Variable(PurgeVectors, Append To Array, Vector(89.884, 10.425, -18.586));
-		"Suburbs [4]"
-		Modify Global Variable(PurgeVectors, Append To Array, Vector(-101.268, 5.426, -109.450));
-		"Capitol Drive [5]"
-		Modify Global Variable(PurgeVectors, Append To Array, Vector(-34.211, 7.268, -32.304));
+		"? [0]"
+		Modify Global Variable(PurgeVectors, Append To Array, Vector(0, 0, 0));
+		"? [1]"
+		Modify Global Variable(PurgeVectors, Append To Array, Vector(0, 0, 0));
+		"? [2]"
+		Modify Global Variable(PurgeVectors, Append To Array, Vector(0, 0, 0));
+		"? [3]"
+		Modify Global Variable(PurgeVectors, Append To Array, Vector(0, 0, 0));
+		"? [4]"
+		Modify Global Variable(PurgeVectors, Append To Array, Vector(0, 0, 0));
+		"? [5]"
+		Modify Global Variable(PurgeVectors, Append To Array, Vector(0, 0, 0));
 		Wait(1, Ignore Condition);
 		"Bow Parts"
 		Global.BowParts = Empty Array;
@@ -1521,16 +1516,16 @@ disabled rule("Global Setup (Vectors, Variables, & Arrays)")
 		Modify Global Variable(BowParts, Append To Array, Last Created Entity);
 		"Blocked Zone Effects"
 		Global.BlockedEffects = Empty Array;
-		"Castle Entry 1 [0, 1]"
+		"? [0, 1]"
 		Create Effect(All Players(All Teams), Light Shaft, Color(Team 2), Global.BlockedVectors[0], Global.BlockedVectors[1], Visible To);
 		Modify Global Variable(BlockedEffects, Append To Array, Last Created Entity);
-		"Castle Entry 2 [2, 3]"
+		"? [2, 3]"
 		Create Effect(All Players(All Teams), Light Shaft, Color(Team 2), Global.BlockedVectors[2], Global.BlockedVectors[3], Visible To);
 		Modify Global Variable(BlockedEffects, Append To Array, Last Created Entity);
 		"? [4, 5]"
 		Create Effect(All Players(All Teams), Light Shaft, Color(Team 2), Global.BlockedVectors[4], Global.BlockedVectors[5], Visible To);
 		Modify Global Variable(BlockedEffects, Append To Array, Last Created Entity);
-		"Throne Room [6, 7]"
+		"? [6, 7]"
 		Create Effect(All Players(All Teams), Light Shaft, Color(Team 2), Global.BlockedVectors[6], Global.BlockedVectors[7], Visible To);
 		Modify Global Variable(BlockedEffects, Append To Array, Last Created Entity);
 		"? [8, 9]"
@@ -1542,7 +1537,7 @@ disabled rule("Global Setup (Vectors, Variables, & Arrays)")
 		Modify Global Variable(BlockedEffects, Append To Array, Last Created Entity);
 		"Blocked Doors Effects"
 		Global.BlockedDoors = Empty Array;
-		"Castle Foyer [0]"
+		"? [0]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[0], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
 		Create In-World Text(All Players(All Teams), Custom String("Castle Foyer (1250 Points)"), Global.DoorVectors[0], 1,
