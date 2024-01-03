@@ -2339,6 +2339,240 @@ disabled rule("Spawn Points")
 
 	actions
 	{
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(167.88, 9.18, -94.77));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(168.21, 9.18, -104.85));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(154.08, 9.18, -96.19));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(140.68, 9.19, -82.24));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(131.72, 9.18, -64.58));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(130.41, 9.20, -47.84));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(137.31, 9.34, -48.49));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(150.22, 9.19, -81.99));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(142.22, 9.19, -69.55));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(130.54, 9.32, -0.58));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(136.96, 9.32, -0.67));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(133.74, 7.98, -29.24));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(133.85, 7.98, -12.59));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(141.03, 9.18, 16.82));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(153.61, 9.18, 35.92));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(139.64, 9.18, 32.63));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(164.92, 9.18, 44.10));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(167.28, 9.18, 55.34));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(165.27, 7.98, 49.32));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(142.12, 7.75, 26.16));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(148.20, 11.84, 36.90));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(141.58, 13.39, -75.52));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(148.78, 13.61, -84.85));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-62.69, 2.00, -8.56));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-60.85, 2.00, -8.29));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-54.24, 3.10, -10.64));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-54.58, 3.10, -3.86));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-56.69, 2.00, 5.70));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-56.88, 2.00, 0.22));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-49.29, 5.08, 5.39));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-62.28, 2.84, -3.60));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-68.63, 3.36, -2.85));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-68.48, 3.61, -6.83));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-68.75, 4.01, -10.31));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-68.58, 3.36, -14.71));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-60.17, 3.08, -12.44));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-63.13, 2.00, -19.73));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-52.22, 2.08, -16.83));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-43.94, 4.08, -19.28));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-48.25, 9.28, 5.27));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-37.28, 8.17, 4.41));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-38.75, 5.62, 9.23));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-42.28, 5.62, 3.74));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-45.76, 5.63, 4.24));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-46.88, 6.84, 8.29));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-48.79, 7.89, 11.25));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-57.02, 8.08, 9.22));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-57.50, 9.21, 13.05));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-57.50, 9.32, 17.21));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-65.60, 9.36, 19.75));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-74.21, 9.36, 11.64));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-69.26, 8.71, 4.58));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-64.47, 8.71, -0.21));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-59.23, 9.52, -0.46));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-63.98, 9.23, -4.55));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-47.95, 10.00, -10.22));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-58.74, 9.59, -14.33));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-51.93, 10.00, -19.90));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-50.74, 12.44, -24.11));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-44.97, 10.00, -24.36));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-44.76, 10.00, -17.31));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-53.01, 9.75, -29.49));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-66.85, 11.32, -22.91));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-67.25, 8.77, -23.88));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-75.11, 14.18, -16.93));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-69.49, 9.23, -10.06));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-66.97, 8.08, -6.43));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-65.63, 8.60, -1.47));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-70.99, 9.10, 3.90));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-71.22, 9.04, -8.71));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-76.61, 8.08, -6.28));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-84.62, 11.01, -4.94));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-86.25, 8.41, 0.4));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-72, 8.00, -12.50));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-74.86, 17.81, -24.38));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-86.45, 12.26, -12.14));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-86.56, 12.44, -21.12));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-86.69, 12.26, -28.78));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-85.08, 9.48, -30.40));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-83.76, 10.97, -33.97));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-92.34, 12.68, -45.37));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-84.57, 11.00, -48.00));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-78.42, 8.87, -39.03));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-73.92, 9.79, -38.86));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-61.16, 8.00, -40.94));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-56.32, 7.55, -40.50));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-73.04, 10.09, -55.37));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-68.69, 18.32, -29.68));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-91.98, 11.00, -39.90));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-92.29, 11.00, -32.74));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-92.06, 16.01, -36.36));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-95.74, 11.00, -31.65));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-99.42, 11.53, -40.17));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-100.40, 12.16, -24.23));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-95.46, 12.17, -16.56));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-95.46, 13.85, -23.37));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-97.28, 11.00, -13.44));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-92.27, 11.00, -4.80));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-91.96, 11.00, -11.89));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-91.96, 16.54, -8.50));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-98.26, 11.53, -4.93));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-85.00, 8.62, -22.67));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-53.34, 4.00, -48.60));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-44.14, 5.23, -45.03));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-44.12, 4.07, -54.15));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-40.42, 4.00, -47.07));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-41.04, 4.00, -43.89));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-38.77, 4.00, -38.74));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-38.78, 4.00, -35.30));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-44.01, 4.75, -31.25));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-42.39, 4.66, -27.21));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-43.24, 6.49, -20.88));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-39.44, 8.10, -13.25));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-34.13, 12.31, 0.25));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-51.49, 7.50, 1.14));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-33.84, 7.40, -4.47));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-30.98, 4.79, -6.97));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-24.91, 5.59, -11.06));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-34.38, 4.43, 1.22));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-23.77, 3.88, -4.75));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-14.38, 1.00, -3.71));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-35.57, 4.38, 18.48));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-24.80, 4.94, 17.20));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-24.80, 4.00, 3.96));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-28.48, 4.87, 27.85));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-15.90, 5.00, 27.66));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-16.44, 10.09, 20.48));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-18.27, 4.06, 19.32));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-23.29, 5.36, 12.19));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-16.02, 4.83, 13.35));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-12.24, 5.21, 19.91));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-2.05, 5.01, 19.99));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(1.89, 5.22, 20.08));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-0.15, 7.01, 25.16));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0.02, 7.01, 29.05));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(11.09, 4.85, 33.57));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(15.84, 5.01, 28.26));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-8.52, 4.85, 34.89));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(11.99, 5.04, 19.99));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-1.98, 6.73, 15.35));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-1.46, 7.19, 3.70));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-2.01, 7.01, -10.20));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-1.92, 7.01, -21.98));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-1.06, 7.17, -23.86));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(1.05, 2.00, -33.65));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-0.11, 2.96, -42.50));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-3.88, 3.17, -43.49));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-4.75, 2.62, -36.17));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-12.24, 2.90, -43.85));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-6.87, 2.62, -46.17));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-9.67, 2.00, -39.53));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-14.89, 3.08, -49.78));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-19.10, 4.06, -45.93));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-29.51, 3.76, -39.99));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-37.66, 4.11, -37.12));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-28.22, 3.94, -27.77));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-27.88, 3.90, -57.24));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-16.79, 3.34, -57.75));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-16.60, 2.87, -40.42));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-19.54, 1.84, -32.32));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-38.46, 4.69, -27.56));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-30.44, 5.43, -8.40));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-28.01, 4.08, -16.65));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-25.31, 5.38, -13.62));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-19.29, 6.17, -10.19));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-17.05, 5.00, -23.10));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-26.80, 5.08, -21.58));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-16.08, 5.88, -14.80));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-24.72, 4.08, -23.71));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-1.36, 1.03, -23.41));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-13.11, 1.02, -22.18));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0.38, 2.34, -11.52));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-3.23, 1.99, 6.20));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-1.44, 1.31, 17.56));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-8.22, 0.08, 19.81));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-11.25, 1.23, 24.64));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-6.05, 1.99, 2.52));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-15.08, 1.33, 6.00));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-5.72, 5.14, -14.76));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-6.63, 4.87, -4.50));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(-4.87, 4.68, -9.93));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
 		Modify Global Variable(SpawnPoints, Append To Array, Vector(0, 0, 0));
 	}
 }
@@ -4205,18 +4439,15 @@ disabled rule("Purchases Extended")
 				Abort;
 			End;
 		End;
-		"Open Castle Entry [0] (0, 1)"
+		"Open The Underground [0] (0, 1)"
 		If(Distance Between(Global.DoorVectors[0], Event Player) <= 2);
 			If(Event Player.Points >= 1250 && Global.DoorsRight1 == 0);
 				Destroy Effect(Global.BlockedDoors[0]);
 				Destroy In-World Text(Global.BlockedDoors[1]);
-				Destroy Effect(Global.BlockedEffects[0]);
-				Destroy Effect(Global.BlockedEffects[2]);
 				Event Player.Points -= 1250;
-				Big Message(All Players(Team 1), Custom String("Castle Foyer Opened"));
+				Big Message(All Players(Team 1), Custom String("The Underground Opened"));
 				Global.DoorsRight1 = 1;
-				Wait(3, Ignore Condition);
-				Call Subroutine(SpawnResets);
+				Global.TeleArray[2] = Global.DoorVectors[0]
 				Abort;
 			End;
 		End;
@@ -4999,7 +5230,7 @@ disabled rule("Blocked Vectors Mechanics")
 
 	actions
 	{
-		"Security Center | Castle Entry 1 [0, 1]"
+		"The Underground | ? [0, 1]"
 		If(Distance Between(Event Player, Global.BlockedVectors[0]) <= Global.BlockedVectors[1]);
 			If(Global.DoorsRight1 < 1);
 				Apply Impulse(Event Player, Direction Towards(Global.BlockedVectors[0], Event Player), 35, To World, Cancel Contrary Motion);
@@ -5007,10 +5238,10 @@ disabled rule("Blocked Vectors Mechanics")
 				Loop If(Distance Between(Event Player, Global.BlockedVectors[0]) <= Global.BlockedVectors[1]);
 			End;
 		End;
-		"Security Center | Castle Entry 2 [2, 3]"
+		"The Underground | ? [2, 3]"
 		If(Distance Between(Event Player, Global.BlockedVectors[2]) <= Global.BlockedVectors[3]);
 			If(Global.DoorsRight1 < 1);
-				Apply Impulse(Event Player, Direction Towards(Global.BlockedVectors[2], Event Player), 15, To World, Cancel Contrary Motion);
+				Apply Impulse(Event Player, Direction Towards(Global.BlockedVectors[2], Event Player), 35, To World, Cancel Contrary Motion);
 				Wait(0.100, Ignore Condition);
 				Loop If(Distance Between(Event Player, Global.BlockedVectors[2]) <= Global.BlockedVectors[3]);
 			End;
@@ -7758,7 +7989,7 @@ disabled rule("Perk, Magic, and Weapon Vectors")
 		"Face Melter Altar [15]"
 		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Up N' Atoms [16]"
-		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(PerkVectors, Append To Array, Vector(-65.95, 2.0, -2.83));
 		"Headcutter Altar [17]"
 		Modify Global Variable(PerkVectors, Append To Array, Vector(0, 0, 0));
 		"Bombstoppers [18]"
@@ -7819,8 +8050,8 @@ disabled rule("Perk, Magic, and Weapon Vectors")
 		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Fire [3, 4, 5]"
-		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
-		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(129.34, 10.14, -21.15));
+		Modify Global Variable(BowVectors, Append To Array, Vector(-62.87, 2.00, -19.72));
 		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Wind [6, 7, 8]"
 		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
@@ -7831,7 +8062,7 @@ disabled rule("Perk, Magic, and Weapon Vectors")
 		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Shadow [12, 13, 14]"
-		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
+		Modify Global Variable(BowVectors, Append To Array, Vector(-53.33, 2.00, -7.17));
 		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		Modify Global Variable(BowVectors, Append To Array, Vector(0, 0, 0));
 		"Venom [15, 16, 17]"
@@ -8220,7 +8451,7 @@ disabled rule("HUD and Variable Init")
 		"Venom Bool"
 		Global.ShadowVectors[52] = False;
 		"Global Spawn"
-		Global.ShadowVectors[53] = Vector(175.581, 9.408, -103.963);
+		Global.ShadowVectors[53] = Vector(175.37, 7.98, -104.26);
 		"Effects Set-Up"
 		Wait(1, Ignore Condition);
 		Call Subroutine(MapSetup);
@@ -8256,14 +8487,14 @@ disabled rule("Tele, Blocked Area, Door, and Power Vectors")
 	{
 		"Teleporter Vectors"
 		Global.TeleArray = Empty Array;
-		"? [0]"
+		"Subway A to Subway B [0]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(136.39, 7.91, -64.01));
+		"Subway B to Subway A [1]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(134.19, 7.98, 7.23));
+		"Subway B to Underground [2]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"? [1]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
-		"? [2]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
-		"? [3]"
-		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
+		"Underground Landing [3]"
+		Modify Global Variable(TeleArray, Append To Array, Vector(-62.81, 2.0, -18.47));
 		"? [4]"
 		Modify Global Variable(TeleArray, Append To Array, Vector(-100, -100, -100));
 		"? [6]"
@@ -8290,12 +8521,12 @@ disabled rule("Tele, Blocked Area, Door, and Power Vectors")
 		Modify Global Variable(TeleArray, Append To Array, Vector(0, 0, 0));
 		"Blocked Zone Vectors"
 		Global.BlockedVectors = Empty Array;
-		"? [0, 1]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(0, 0, 0));
-		Modify Global Variable(BlockedVectors, Append To Array, 0);
-		"? [2, 3]"
-		Modify Global Variable(BlockedVectors, Append To Array, Vector(0, 0, 0));
-		Modify Global Variable(BlockedVectors, Append To Array, 0);
+		"The Underground to ? [0, 1]"
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(-49.21, 2.00, -18.55));
+		Modify Global Variable(BlockedVectors, Append To Array, 2.5);
+		"The Undergorund to ? [2, 3]"
+		Modify Global Variable(BlockedVectors, Append To Array, Vector(-56.86, 2.00, 5.76));
+		Modify Global Variable(BlockedVectors, Append To Array, 3);
 		"? [4, 5]"
 		Modify Global Variable(BlockedVectors, Append To Array, Vector(0, 0, 0));
 		Modify Global Variable(BlockedVectors, Append To Array, 0);
@@ -8310,8 +8541,8 @@ disabled rule("Tele, Blocked Area, Door, and Power Vectors")
 		Modify Global Variable(BlockedVectors, Append To Array, 0);
 		"Door Vectors"
 		Global.DoorVectors = Empty Array;
-		"? [0]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
+		"The Underground [0]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(173.80, 7.98, 54.27));
 		"? [1]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"? [2]"
@@ -8775,10 +9006,10 @@ disabled rule("Door, Blocked Area, Tele, and Power Effects")
 		Modify Global Variable(BlockedEffects, Append To Array, Last Created Entity);
 		"Blocked Doors Effects"
 		Global.BlockedDoors = Empty Array;
-		"? [0]"
+		"The Underground [0]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[0], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Castle Foyer (1250 Points)"), Global.DoorVectors[0], 1,
+		Create In-World Text(All Players(All Teams), Custom String("The Underground (1250 Points)"), Global.DoorVectors[0], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
 		"? [1]"

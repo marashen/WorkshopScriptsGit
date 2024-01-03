@@ -8464,29 +8464,35 @@ disabled rule("Tele, Blocked Area, Door, and Power Vectors")
 		Modify Global Variable(BlockedVectors, Append To Array, 0);
 		"Door Vectors"
 		Global.DoorVectors = Empty Array;
-		"? [0]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [1]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [2]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [3]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [4]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [5]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [6]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [7]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [8]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [9]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [10]"
-		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
-		"? [11]"
+		"Subway [0]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-98.729, -2.976, -71.479));
+		"Alleyway [1]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-93.309, -1.051, -51.301));
+		"Mainstreet [2]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-97.400, -1.073, -42.080));
+		"Archway [3]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-37.656, 3.425, -43.466));
+		"Garage [4]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-79.596, 1.598, 6.637));
+		"Catwalk [5]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-58.078, 6.446, -12.011));
+		"Living Room [6]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-27.184, 1.556, -38.615));
+		"Statue Grounds [7]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(8.637, 2.425, -7.044));
+		"Maintenance Tunnel [8]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-116.610, -2.976, -37.518));
+		"Factory Grounds [9]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-165.282, 1.496, 4.159));
+		"Overlook [10]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-160.988, 1.496, 46.602));
+		"Entryway [11]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-140.904, 0.519, 1.029));
+		"Thoroughfare [12]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-130.025, 2.519, 32.022));
+		"Downtown [13]"
+		Modify Global Variable(DoorVectors, Append To Array, Vector(-40.089, 1.307, 19.605));
+		"Clocktower [14]"
 		Modify Global Variable(DoorVectors, Append To Array, Vector(0, 0, 0));
 		"Purge Vectors"
 		Global.PurgeVectors = Empty Array;
@@ -8929,58 +8935,58 @@ disabled rule("Door, Blocked Area, Tele, and Power Effects")
 		Modify Global Variable(BlockedEffects, Append To Array, Last Created Entity);
 		"Blocked Doors Effects"
 		Global.BlockedDoors = Empty Array;
-		"? [0]"
+		"Subway [0]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[0], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Castle Foyer (1250 Points)"), Global.DoorVectors[0], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Subway (750 Points)"), Global.DoorVectors[0], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"? [1]"
+		"Alleyway [1]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[1], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Loading Zone (2500 Points)"), Global.DoorVectors[1], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Alleyway (1000 Points)"), Global.DoorVectors[1], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"? [2]"
+		"Mainstreet [2]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[2], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Distillery (1250 Points)"), Global.DoorVectors[2], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Mainstreet (1500 Points)"), Global.DoorVectors[2], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"? [3]"
+		"Archway [3]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[3], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Rum Factory (1500 Points)"), Global.DoorVectors[3], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Archway (1750 Points)"), Global.DoorVectors[3], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"? [4]"
+		"Garage [4]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[4], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Capitol Drive (750 Points)"), Global.DoorVectors[4], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Garage (2000 Points)"), Global.DoorVectors[4], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"? [5]"
+		"Catwalk [5]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[5], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Battlements (1500 Points)"), Global.DoorVectors[5], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Catwalk (2500 Points)"), Global.DoorVectors[5], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"? [6]"
+		"Living Room [6]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[6], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Sea Wall (2000 Points)"), Global.DoorVectors[6], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Living Room (1500 Points)"), Global.DoorVectors[6], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"? [7]"
+		"Statue Grounds [7]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[7], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Suburbs (1250 Points)"), Global.DoorVectors[7], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Statue Grounds (1750 Points)"), Global.DoorVectors[7], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
-		"? [8]"
+		"Maintenance Tunnel [8]"
 		Create Effect(All Players(All Teams), Ring, Color(Green), Global.DoorVectors[8], 2, Visible To);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Created Entity);
-		Create In-World Text(All Players(All Teams), Custom String("Sebastian's Garage (1500 Points)"), Global.DoorVectors[8], 1,
+		Create In-World Text(All Players(All Teams), Custom String("Maintenance Tunnel (2000 Points)"), Global.DoorVectors[8], 1,
 			Clip Against Surfaces, Visible To, Color(Green), Visible Always);
 		Modify Global Variable(BlockedDoors, Append To Array, Last Text ID);
 		"? [9]"
