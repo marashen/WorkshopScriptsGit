@@ -1,0 +1,135 @@
+variables
+{
+	global:
+		0: Round
+		1: Kills
+		24: SpawnPoints
+		53: LockdownArray
+		56: ShadowVectors
+
+	player:
+		7: Speed
+		29: Juggernog
+		64: Downs
+}
+
+rule("Zombie Attack")
+{
+	event
+	{
+		Ongoing - Each Player;
+		Team 2;
+		Reaper;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player, Closest Player To(Event Player, Team 1)) < 2;
+		Is Alive(Event Player) == True;
+	}
+
+	actions
+	{
+		If(Ultimate Charge Percent(Event Player) < 100);
+			Wait(1, Abort When False);
+			Press Button(Event Player, Button(Primary Fire));
+			Loop If Condition Is True;
+		Else;
+			Press Button(Event Player, Button(Ultimate));
+			Loop If Condition Is True;
+		End;
+	}
+}
+
+rule("Zombie Damage")
+{
+	event
+	{
+		Player Dealt Damage;
+		Team 2;
+		All;
+	}
+
+	conditions
+	{
+		Distance Between(Victim, Attacker) <= 2;
+	}
+
+	actions
+	{
+		Damage(Victim, Null, Max Health(Victim) * (0.250 / (1 + Victim.Juggernog)) - Event Damage);
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("Enemy Movement")
+{
+	event
+	{
+		Ongoing - Each Player;
+		Team 2;
+		All;
+	}
+
+	conditions
+	{
+		Is Alive(Event Player) == True;
+	}
+
+	actions
+	{
+		Stop Facing(Event Player);
+		Stop Forcing Throttle(Event Player);
+		Wait(0.100, Ignore Condition);
+		Start Forcing Throttle(Event Player, 1, 1, 0, 1, 0, 1);
+		Start Facing(Event Player, Direction Towards(Eye Position(Event Player), Eye Position(Sorted Array(Filtered Array(
+			All Living Players(Team 1), Current Array Element.Downs == False), Distance Between(Event Player, Current Array Element))[0])),
+			480, To World, Direction and Turn Rate);
+		Wait(4, Ignore Condition);
+		If(Speed Of(Event Player) < 5);
+			Apply Impulse(Event Player, Up, 10, To Player, Cancel Contrary Motion);
+			Apply Impulse(Event Player, Forward, 5, To Player, Cancel Contrary Motion);
+		End;
+		Loop If Condition Is True;
+	}
+}
+
+rule("Enemies Stuck")
+{
+	event
+	{
+		Ongoing - Each Player;
+		Team 2;
+		All;
+	}
+
+	conditions
+	{
+		Is Alive(Event Player) == True;
+		Is True For All(Filtered Array(All Living Players(Team 1), Has Status(Current Array Element, Knocked Down) == False),
+			Is In Line of Sight(Event Player, Current Array Element, Barriers Do Not Block LOS)) == False;
+	}
+
+	actions
+	{
+		Wait(2, Abort When False);
+		If(Hero Of(Event Player) == Hero(Hanzo) && Global.Kills > 4);
+			Teleport(Event Player, Random Value In Array(Global.SpawnPoints));
+			Apply Impulse(Event Player, Up, 70, To World, Cancel Contrary Motion);
+			Loop If Condition Is True;
+		Else If(Hero Of(Event Player) == Hero(Hanzo) && Global.Kills <= 4);
+			Teleport(Event Player, Position Of(Closest Player To(Event Player, Team 1)));
+			Loop If Condition Is True;
+		Else;
+			Teleport(Event Player, Random Value In Array(Filtered Array(Global.SpawnPoints, Is In Line of Sight(Current Array Element,
+				Closest Player To(Current Array Element, Team 1), Barriers Do Not Block LOS) == True)));
+			If(Global.Round / 12 == Round To Integer(Global.Round / 12, Down));
+				Teleport(Event Player, Random Value In Array(Global.LockdownArray));
+			End;
+			"Speed Resets (Stuck)"
+			Event Player.Speed = 200;
+			Set Move Speed(Event Player, Global.ShadowVectors[26]);
+			Loop If Condition Is True;
+		End;
+	}
+}
